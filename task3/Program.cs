@@ -13,7 +13,6 @@ void PrintArray(int[] arr)
     }
 }
 
-int[] array = { 1, 2, 3, 4, 5 };
 ZeroEvenElements(array);
 PrintArray(array);
 
@@ -24,4 +23,5 @@ PrintArray(array);
 
 
 // ввод числовых данных с консоли
-// string input = Colsole.RealLine();
+// string input = Colsole.RealLine(); ReadLine имеет строковый тип данных
+// если нужно ввести числовые значения, то нужно преобразовать: int value = Convert.ToInt32(input);
